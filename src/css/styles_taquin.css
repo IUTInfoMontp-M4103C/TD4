@@ -111,3 +111,28 @@ input, select {
 	}
 
 }
+
+@media(max-width: 768px) {
+	#plateau {
+		width:75%;
+	}
+	.ligne>img {
+		min-width:24.8%;
+	}
+	#photo16 {
+		min-width: 99.8%;
+	}
+	#boutons, #message {
+		height:5em;
+	}
+	input, select, p {
+		font-size: 20px;
+	}
+	#message>p {
+		margin:0.6em 5px;
+	}
+	input, select {
+		max-height:25px;
+	}
+
+}
