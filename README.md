@@ -50,3 +50,9 @@ Voici le jeu en configuration "solution"
 </p>
 
 
+Le changement de thème ne fait que modifier l'apparence du puzzle, il ne touche en rien la situation des carrés. Si on change de thème, la vue "solution" est bien entendue actualisée. Voici un exemple de thème :
+
+<p align="center">
+   <img src="ressources/img3_1.png">
+</p>
+
