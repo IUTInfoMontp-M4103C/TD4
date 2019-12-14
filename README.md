@@ -81,5 +81,5 @@ Quand le puzzle est résolu, une image réduite vient boucher l'emplacement libr
 
 
 
-** A VOUS !!!**
+**A VOUS !!!**
 
