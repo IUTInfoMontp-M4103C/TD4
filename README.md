@@ -56,3 +56,4 @@ Le changement de thème ne fait que modifier l'apparence du puzzle, il ne touche
    <img src="ressources/img3_1.png">
 </p>
 
+...
