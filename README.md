@@ -21,12 +21,14 @@ L'environnement html-css est déjà opérationnel, mais vous pouvez adapter le c
 
 Vous avez dans le dossier img plusieurs sous-dossiers contenant toutes les images nécessaires pour le jeu. Le nommage des fichiers images est standardisé.  
 
+Le css proposé permet une lecture confortable sur quelques smartphones. Ce sera complété mais ce n'est pas essentiel.
+
 
 ## CONSIGNES
 
 Le travail à accomplir : créer les fichiers JavaScript qui permettent de jouer. 
 
-Vous pouvez donner une version strictement fonctionnelle du jeu, ou alors organiser votre code en classes. C'est à vous de voir.
+Vous pouvez donner une version strictement fonctionnelle du jeu, ou alors organiser votre code en classes. C'est à vous de voir. 
 
 
 ## QUELQUES CAPTURES D'ECRAN
@@ -39,7 +41,7 @@ Voici le jeu en configuration "puzzle"
    <img src="ressources/img0.png">
 </p>
 
-Au survol, une image "déplaçable" voit un curseur souris de type "pointer". Dans le cas contraire, le curseur souris est de type "not-allowed".
+Au survol, une image "déplaçable" a un curseur souris de type "pointer". Si l'image n'est pas déplaçable, le curseur souris est de type "not-allowed".
 
 Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration puzzle.
 
@@ -75,3 +77,6 @@ Quand le puzzle est résolu, une image réduite vient boucher l'emplacement libr
 <p align="center">
    <img src="ressources/img4.png">
 </p>
+
+
+
