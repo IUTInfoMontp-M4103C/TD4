@@ -31,10 +31,22 @@ Vous pouvez donner une version strictement fonctionnelle du jeu, ou alors organi
 
 ## QUELQUES CAPTURES D'ECRAN
 
-Voici le jeu en position "puzzle"
+Voici le jeu en configuration "puzzle"
 
 <p align="center">
    <img src="ressources/img0.png">
+</p>
+
++ Le sélecteur de thèmes permet de changer le thème du jeu. Le thème par défaut est celui des nombres.
+
++ Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration jeu.
+
++ Le bouton solution permet un switch entre l'affichage du puzzle dans son état courant et l'image du puzzle résolu. En configuration jeu, ce bouton affiche le texte solution, et si on passe en configuration solution, alors le texte du bouton se change en "puzzle", et le bouton mélanger est provisoirement désactivé.
+
+Voici le jeu en configuration "solution"
+
+<p align="center">
+   <img src="ressources/img0_1.png">
 </p>
 
 
