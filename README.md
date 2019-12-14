@@ -31,29 +31,47 @@ Vous pouvez donner une version strictement fonctionnelle du jeu, ou alors organi
 
 ## QUELQUES CAPTURES D'ECRAN
 
+### Configuration "puzzle"
+
 Voici le jeu en configuration "puzzle"
 
 <p align="center">
    <img src="ressources/img0.png">
 </p>
 
-+ Le sélecteur de thèmes permet de changer le thème du jeu. Le thème par défaut est celui des nombres.
+Au survol, une image "déplaçable" voit un curseur souris de type "pointer". Dans le cas contraire, le curseur souris est de type "not-allowed".
 
-+ Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration jeu.
+Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration puzzle.
 
-+ Le bouton solution permet un switch entre l'affichage du puzzle dans son état courant et l'image du puzzle résolu. En configuration jeu, ce bouton affiche le texte solution, et si on passe en configuration solution, alors le texte du bouton se change en "puzzle", et le bouton mélanger est provisoirement désactivé.
 
-Voici le jeu en configuration "solution"
+### Configuration "solution"
+
+Le bouton solution, dans la configuration puzzle, permet de basculer sur l'affichage du puzzle résolu. En configuration puzzle, ce bouton affiche le texte solution, et si on passe en configuration solution, alors le texte du bouton se change en "puzzle", et le bouton mélanger est provisoirement désactivé.
+
+Voici le jeu en configuration "solution", une fois pressé le bouton solution (qui devient alors le bouton puzzle)
 
 <p align="center">
    <img src="ressources/img0_1.png">
 </p>
 
 
-Le changement de thème ne fait que modifier l'apparence du puzzle, il ne touche en rien la situation des carrés. Si on change de thème, la vue "solution" est bien entendue actualisée. Voici un exemple de thème :
+### Changement de thème
+
+Le changement de thème ne fait que modifier l'apparence du puzzle, il ne touche en rien la situation des carrés. Si on change de thème, la vue "solution" est bien entendue actualisée. 
+
+Le sélecteur de thèmes permet de changer le thème du jeu. Le thème par défaut est celui des nombres.
+
+Voici un exemple de thème :
 
 <p align="center">
    <img src="ressources/img3_1.png">
 </p>
 
-...
+
+### Configuration "puzzle résolu"
+
+Quand le puzzle est résolu, une image réduite vient boucher l'emplacement libre. Plus aucune pièce n'est alors déplaçable, et un message prévient l'utilisateur. 
+
+<p align="center">
+   <img src="ressources/img4.png">
+</p>
