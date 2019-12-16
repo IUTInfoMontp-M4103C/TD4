@@ -43,6 +43,10 @@ Vous pouvez donner une version strictement fonctionnelle du jeu, ou alors organi
 
 ## QUELQUES CAPTURES D'ECRAN
 
+
+**Pour cette partie, le chargé de TD commentera les différentes captures d'écran, au besoin par une démonstration en direct des différentes fonctionnalités.**
+
+
 ### Configuration "puzzle"
 
 Voici le jeu en configuration "puzzle"
@@ -55,14 +59,14 @@ Au survol, une image "déplaçable" a un curseur souris de type "pointer". Si l'
 
 Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration puzzle.
 
-Dans cette configuration, le <div id="jeu"> (qui présente les images partielles nombres_0.jpg, ..., nombres_15.jpg) est en display flex, et le <div id="solution"> (qui affiche la grande image nombres_16.jpg) en display none.
+Dans cette configuration, le `<div id="jeu">` (qui présente les images partielles nombres_0.jpg, ..., nombres_15.jpg) est en display flex, et le `<div id="modele">` (qui affiche la grande image nombres_16.jpg) en display none.
 
 
 ### Configuration "solution"
 
 Le bouton solution, dans la configuration puzzle, permet de basculer sur l'affichage du puzzle résolu. En configuration puzzle, ce bouton affiche le texte solution, et si on passe en configuration solution, alors le texte du bouton se change en "puzzle", et le bouton mélanger est provisoirement désactivé.
 
-Dans cette configuration, le <div id="jeu"> est passé en display none, et le <div id="solution"> est passé en display flex.
+Dans cette configuration, le `<div id="jeu">` est passé en display none, et le `<div id="modele">` est passé en display flex.
 
 Voici le jeu en configuration "solution", une fois pressé le bouton solution (qui devient alors le bouton puzzle)
 
