@@ -17,11 +17,21 @@ Dans ce TD, nous allons réinvestir le travail des trois premiers TD pour créer
 
 Notre taquin est un puzzle de dimensions 4 lignes et 4 colonnes, soit 16 emplacements. Sur ces 16 emplacements se déplacent 15 carrés portant chacun une partie de l'image complète. L'emplacement sans carré permet aux carrés placés sur les emplacements voisins d'être déplacés sur cet emplacement vide.
 
-L'environnement html-css est déjà opérationnel, mais vous pouvez adapter le css si besoin. 
+L'environnement html-css est déjà opérationnel, mais vous pouvez adapter le css si besoin. Le fichier `taquin.html` contient en particulier toute la structure html qui permettra de manipuler les images par l'intermédiaire de l'interface Document Object Model (DOM). 
 
-Vous avez dans le dossier img plusieurs sous-dossiers contenant toutes les images nécessaires pour le jeu. Le nommage des fichiers images est standardisé.  
+Vous avez dans le dossier img plusieurs sous-dossiers contenant toutes les images nécessaires pour le jeu. Le nommage des fichiers images est standardisé pour que les actions sur les src des balises images soient simples à écrire. Ainsi, les fichiers :
 
-Le css proposé permet une lecture confortable sur quelques smartphones. Ce sera complété mais ce n'est pas essentiel.
++ nombres_0.jpg, ..., nombres_14.jpg sont les fragments de l'image solution,
+
++ nombres_15.jpg est l'image correspondant à la case libre,
+
++ nombres_16.jpg est l'image grand format de la solution,
+
++ nombres_.jpg est l'image petit format de la solution.
+
+Le rôle des images nombres_16.jpg et nombres_.jpg est précisé par la suite.
+
+Le css proposé permet une lecture confortable sur quelques smartphones. Il peut être complété à votre guise mais ce n'est pas essentiel (pas un objectif pédagogique à ce stade).
 
 
 ## CONSIGNES
@@ -45,10 +55,14 @@ Au survol, une image "déplaçable" a un curseur souris de type "pointer". Si l'
 
 Le bouton mélanger, comme son nom l'indique, mélange le puzzle. Il est actif dans la configuration puzzle.
 
+Dans cette configuration, le <div id="jeu"> (qui présente les images partielles nombres_0.jpg, ..., nombres_15.jpg) est en display flex, et le <div id="solution"> (qui affiche la grande image nombres_16.jpg) en display none.
+
 
 ### Configuration "solution"
 
 Le bouton solution, dans la configuration puzzle, permet de basculer sur l'affichage du puzzle résolu. En configuration puzzle, ce bouton affiche le texte solution, et si on passe en configuration solution, alors le texte du bouton se change en "puzzle", et le bouton mélanger est provisoirement désactivé.
+
+Dans cette configuration, le <div id="jeu"> est passé en display none, et le <div id="solution"> est passé en display flex.
 
 Voici le jeu en configuration "solution", une fois pressé le bouton solution (qui devient alors le bouton puzzle)
 
