@@ -15,7 +15,7 @@ body {
 	background-color: lightyellow;
 }
 
-input, select, p {
+input, select {
 	font-size: 18px;
 }
 
@@ -32,6 +32,7 @@ input, select {
 	display:flex;
 	flex-direction: column;
 	border:solid 1px lightgrey;
+	min-height:403px;
 }
 
 .ligne {
@@ -40,6 +41,7 @@ input, select {
 
 .img_puzzle, #photo16 {
 	margin:0px 1px 1px 0px;
+	min-height: 100px;
 }
 
 #boutons {
@@ -92,7 +94,7 @@ input, select {
 
 /* huawei mate 20 */
 
-@media(max-width: 1100px) {
+@media(max-width: 1080px) {
 	#plateau {
 		width:75%;
 	}
@@ -111,6 +113,13 @@ input, select {
 	#message>p {
 		margin:0.6em 5px;
 	}
+	#titre>p, #footer>p {
+		font-size: 2.5em;
+		margin:30px 0px;
+	}
+	#jeu {
+		margin:20px 0px;
+	}
 
 }
 
@@ -127,7 +136,7 @@ input, select {
 	#boutons, #message {
 		height:5em;
 	}
-	input, select, p {
+	input, select {
 		font-size: 20px;
 	}
 	#message>p {
@@ -135,6 +144,17 @@ input, select {
 	}
 	input, select {
 		max-height:25px;
+	}
+	#titre>p, #footer>p {
+		font-size: 1.8em;
+		margin:5px 0px;
+	}
+	#jeu {
+		margin:0px 0px 10px 0px;
+		min-height: 403px;
+	}
+	#boutons {
+		margin:10px 0px -10px 0px;
 	}
 
 }
