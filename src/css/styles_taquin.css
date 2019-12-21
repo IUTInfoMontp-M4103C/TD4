@@ -117,9 +117,6 @@ input, select {
 		font-size: 2.5em;
 		margin:30px 0px;
 	}
-	#jeu {
-		margin:20px 0px;
-	}
 
 }
 
@@ -148,10 +145,6 @@ input, select {
 	#titre>p, #footer>p {
 		font-size: 1.8em;
 		margin:5px 0px;
-	}
-	#jeu {
-		margin:0px 0px 10px 0px;
-		min-height: 403px;
 	}
 	#boutons {
 		margin:10px 0px -10px 0px;
