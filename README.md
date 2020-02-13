@@ -38,7 +38,11 @@ Le css proposé permet une lecture confortable sur quelques smartphones. Il peut
 
 Le travail à accomplir : créer les fichiers JavaScript qui permettent de jouer. 
 
-On pourrait donner une version strictement fonctionnelle du jeu. Mais vous devrez présenter un code obligatoirement organisé en classes. 
+On pourrait donner une version strictement fonctionnelle du jeu. Mais vous devrez présenter un code obligatoirement organisé en classes.
+
+Prenez le temps qu'il faut pour bien concevoir votre solution. Plus votre point de vue sera précis au départ, plus les méthodes à coder vous apparaîtront clairement. 
+
+Si vous ne prenez pas le temps pour cette phase de conception, vous risquez de coder avec un schéma fluctuant, et donc de produire un code maladroit ou bancal.
 
 
 ## QUELQUES CAPTURES D'ECRAN
