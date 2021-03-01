@@ -7,6 +7,7 @@
 
 Cliquez sur le lien ci-dessous pour faire, dans un dossier public_html/JS/TD4, votre fork privé du TD4 (**attention, pas de fork à la main !**):
 
+* Groupe G1 : https://classroom.github.com/a/uDkJgefA . TD à rendre pour le dimanche 07/03 23h00.
 
 ## INTRODUCTION
 
