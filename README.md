@@ -7,10 +7,10 @@
 
 Cliquez sur le lien ci-dessous pour faire, dans un dossier public_html/JS/TD4, votre fork privé du TD4 (**attention, pas de fork à la main !**):
 
-* Groupe G1 : https://classroom.github.com/a/uDkJgefA . TD à rendre pour le dimanche 07/03 23h00.
-<!--* Groupe G2 : https://classroom.github.com/a/Ao8PRtYj . TD à rendre pour le ???.
-* Groupe G3 : https://classroom.github.com/a/ElbVQW7l . TD à rendre pour le ???.
-* Groupe G4 : https://classroom.github.com/a/kvp7TVgO . TD à rendre pour le ???.-->
+* Groupe G1 : https://classroom.github.com/a/uDkJgefA - À rendre pour le dimanche 07/03 23h00.
+* Groupe G2 : https://classroom.github.com/a/Ao8PRtYj - À rendre pour le dimanche 07/03 23h00.
+* Groupe G3 : https://classroom.github.com/a/ElbVQW7l - À rendre pour le dimanche 07/03 23h00.
+* Groupe G4 : https://classroom.github.com/a/kvp7TVgO - À rendre pour le dimanche **14/03** 23h00.
 
 
 ## INTRODUCTION
